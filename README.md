@@ -10,7 +10,7 @@ AstroTip allows users to connect Stellar wallets, view balances, send XLM paymen
 
 **Live Application:**
 
-https://vercel.com/akashhhh
+https://astro-tip.vercel.app/
 
 ---
 
@@ -24,7 +24,7 @@ https://youtu.be/Ia0MADcjq9s?si=aYNvkPQfgWiP49jz
 
 ## 📂 GitHub Repository
 
-https://github.com/Akash2468jee
+https://github.com/Doremonjh
 
 ---
 
@@ -32,62 +32,62 @@ https://github.com/Akash2468jee
 
 ### Multi-Wallet Support
 
-- Freighter Wallet Integration
-- Albedo Wallet Integration
-- Wallet Connect / Disconnect
-- Automatic wallet persistence using localStorage
+* Freighter Wallet Integration
+* Albedo Wallet Integration
+* Wallet Connect / Disconnect
+* Automatic wallet persistence using localStorage
 
 ### Balance Management
 
-- Fetch Stellar Testnet XLM balance
-- Real-time balance updates
-- Friendbot funding support
+* Fetch Stellar Testnet XLM balance
+* Real-time balance updates
+* Friendbot funding support
 
 ### XLM Transactions
 
-- Send XLM payments on Stellar Testnet
-- Input validation
-- Success and failure notifications
-- Transaction hash tracking
+* Send XLM payments on Stellar Testnet
+* Input validation
+* Success and failure notifications
+* Transaction hash tracking
 
 ### Soroban Smart Contract
 
-- Deposit tips into Tip Jar contract
-- Read contract state
-- Real-time contract interaction
-- Event monitoring
+* Deposit tips into Tip Jar contract
+* Read contract state
+* Real-time contract interaction
+* Event monitoring
 
 ### Transaction Status Tracking
 
 Displays transaction stages:
 
-- Preparing
-- Awaiting Signature
-- Submitting
-- Pending Confirmation
-- Confirmed
-- Failed
+* Preparing
+* Awaiting Signature
+* Submitting
+* Pending Confirmation
+* Confirmed
+* Failed
 
 ### Error Handling
 
 Handles multiple error types:
 
-- WalletNotInstalledError
-- UserRejectedTransactionError
-- NetworkError
-- InsufficientBalanceError
-- ContractExecutionError
+* WalletNotInstalledError
+* UserRejectedTransactionError
+* NetworkError
+* InsufficientBalanceError
+* ContractExecutionError
 
 ---
 
 ## 🔗 Smart Contract Information
 
-| Item | Value |
-|------|-------|
-| Network | Stellar Testnet |
-| Contract ID | `CBLRC7CFV5OV42B5I2NE7EXCBLC3XTXXH3SPZV4E4VI43IETOSC5BRU5` |
-| Smart Contract | Soroban Tip Jar |
-| Status | Deployed Successfully |
+| Item                        | Value                                                              |
+| --------------------------- | ------------------------------------------------------------------ |
+| Network                     | Stellar Testnet                                                    |
+| Contract ID                 | `CBLRC7CFV5OV42B5I2NE7EXCBLC3XTXXH3SPZV4E4VI43IETOSC5BRU5`         |
+| Smart Contract              | Soroban Tip Jar                                                    |
+| Status                      | Deployed Successfully                                              |
 | Deployment Transaction Hash | `d3f8efcb83b89c92a6b176df7d359c024876b5083da93795bcb6ad459bf1ff52` |
 
 ---
@@ -96,28 +96,28 @@ Handles multiple error types:
 
 ### Frontend
 
-- React 19
-- Vite
-- Tailwind CSS
-- React Toastify
+* React 19
+* Vite
+* Tailwind CSS
+* React Toastify
 
 ### Blockchain
 
-- Stellar SDK
-- Soroban Smart Contracts
-- Horizon API
-- Soroban RPC
+* Stellar SDK
+* Soroban Smart Contracts
+* Horizon API
+* Soroban RPC
 
 ### Wallets
 
-- Freighter Wallet
-- Albedo Wallet
+* Freighter Wallet
+* Albedo Wallet
 
 ### Deployment
 
-- GitHub
-- Vercel
-- GitHub Actions
+* GitHub
+* Vercel
+* GitHub Actions
 
 ---
 
@@ -147,11 +147,9 @@ package.json
 ### Clone Repository
 
 ```bash
-git clone https://github.com/Akash2468jee/AstroTip.git
-cd AstroTip
+git clone https://github.com/Doremonjh/Astro-Tip.git
+cd Astro-Tip
 ```
-
-> **Note:** Replace `AstroTip` with your actual repository name if it's different.
 
 ### Install Dependencies
 
@@ -234,10 +232,10 @@ CBLRC7CFV5OV42B5I2NE7EXCBLC3XTXXH3SPZV4E4VI43IETOSC5BRU5
 
 GitHub Actions automatically:
 
-- Install dependencies
-- Run validation checks
-- Build project
-- Verify deployment readiness
+* Install dependencies
+* Run validation checks
+* Build project
+* Verify deployment readiness
 
 Workflow file:
 
@@ -249,42 +247,46 @@ Workflow file:
 
 ## ✅ Level 2 Requirements Completed
 
-- Wallet Connect Functionality
-- Wallet Disconnect Functionality
-- Freighter Integration
-- Albedo Integration
-- Multi-Wallet Support
-- Balance Fetching
-- XLM Transaction Support
-- Contract Deployed on Testnet
-- Frontend Contract Interaction
-- Real-Time Event Integration
-- Transaction Status Tracking
-- Error Handling
-- Mobile Responsive UI
-- Public GitHub Repository
-- GitHub Actions CI/CD
-- Vercel Deployment
-- README Documentation
-- Demo Video
+* Wallet Connect Functionality
+* Wallet Disconnect Functionality
+* Freighter Integration
+* Albedo Integration
+* Multi-Wallet Support
+* Balance Fetching
+* XLM Transaction Support
+* Contract Deployed on Testnet
+* Frontend Contract Interaction
+* Real-Time Event Integration
+* Transaction Status Tracking
+* Error Handling
+* Mobile Responsive UI
+* Public GitHub Repository
+* GitHub Actions CI/CD
+* Vercel Deployment
+* README Documentation
+* Demo Video
 
 ---
+
 ## 📝 Feedback Form
 
 We'd love to hear your thoughts! Your feedback helps us improve the project and build a better experience.
 
 👉 **Submit your feedback here:**
+
 https://docs.google.com/spreadsheets/d/1keevBdqsgaL9YdjkQXLifaWl-IZr2UDQRCPlN0CTVPo/edit?usp=sharing
 
 Thank you for taking the time to share your feedback! ❤️
 
+---
+
 ## 📈 Git Commit History
 
-- feat: add multi-wallet support with Freighter and Albedo integration
-- feat: implement Soroban tip jar contract and frontend contract interactions
-- feat: add real-time event subscriptions and transaction status tracking
-- refactor: improve error handling, UI polish, and production readiness
-- feat: complete AstroTip Level 2 project
+* feat: add multi-wallet support with Freighter and Albedo integration
+* feat: implement Soroban tip jar contract and frontend contract interactions
+* feat: add real-time event subscriptions and transaction status tracking
+* refactor: improve error handling, UI polish, and production readiness
+* feat: complete AstroTip Level 2 project
 
 ---
 
@@ -306,6 +308,6 @@ https://stellar.expert
 
 ## 👨‍💻 Developer
 
-**Akash Banerjee**
+**Pratibha**
 
 Built as part of the Stellar Developer Program Level 2 Challenge using Stellar, Soroban, React, and Vercel.
