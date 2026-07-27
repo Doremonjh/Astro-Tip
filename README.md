@@ -267,6 +267,12 @@ Workflow file:
 * Demo Video
 
 ---
+Contract Verification Details
+
+Contract ID: CCAGHZ6EE2O6TR6DKI6H6M5HE24LBPE435XQD4J6L4CM3HI7ZYO2ZDHS
+Deployment Transaction Hash: a8a8434ebd53c4da0ac922d23287a1b70025e4c4f951960f40dfd16e2562dba7
+Contract Explorer (Testnet):
+https://lab.stellar.org/smart-contracts/contract-explorer?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;&smartContracts$explorer$contractId=CCAGHZ6EE2O6TR6DKI6H6M5HE24LBPE435XQD4J6L4CM3HI7ZYO2ZDHS;;
 
 ## 📝 Feedback Form
 
