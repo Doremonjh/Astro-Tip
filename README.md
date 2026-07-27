@@ -1,6 +1,6 @@
 # AstroTip 🚀
 
-A Level 2 Stellar & Soroban dApp built on the Stellar Testnet using React, Vite, Tailwind CSS, and Soroban Smart Contracts.
+Stellar & Soroban dApp built on the Stellar Testnet using React, Vite, Tailwind CSS, and Soroban Smart Contracts.
 
 AstroTip allows users to connect Stellar wallets, view balances, send XLM payments, interact with a deployed Soroban smart contract, and track contract activity in real time through a modern, responsive interface.
 
@@ -245,7 +245,7 @@ Workflow file:
 
 ---
 
-## ✅ Level 2 Requirements Completed
+## ✅  Requirements Completed
 
 * Wallet Connect Functionality
 * Wallet Disconnect Functionality
@@ -316,4 +316,4 @@ https://stellar.expert
 
 **Pratibha**
 
-Built as part of the Stellar Developer Program Level 2 Challenge using Stellar, Soroban, React, and Vercel.
+Built as part of the Stellar Developer Program Challenge using Stellar, Soroban, React, and Vercel.
