@@ -19,7 +19,7 @@ export default function BalanceCard({
 }) {
   const [isFunding, setIsFunding] = useState(false);
   const [contractCopied, setContractCopied] = useState(false);
-  const contractId = "CBLRC7CFV5OV42B5I2NE7EXCBLC3XTXXH3SPZV4E4VI43IETOSC5BRU5";
+  const contractId = "CCAGHZ6EE2O6TR6DKI6H6M5HE24LBPE435XQD4J6L4CM3HI7ZYO2ZDHS";
 
   const handleFundAccount = async () => {
     if (!publicKey) return;

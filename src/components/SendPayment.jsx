@@ -20,7 +20,7 @@ export default function SendPayment({
   const [error, setError] = useState("");
 
   const currentBalance = balanceData?.balance ? parseFloat(balanceData.balance) : 0;
-  const contractId = "CBLRC7CFV5OV42B5I2NE7EXCBLC3XTXXH3SPZV4E4VI43IETOSC5BRU5";
+  const contractId = "CCAGHZ6EE2O6TR6DKI6H6M5HE24LBPE435XQD4J6L4CM3HI7ZYO2ZDHS";
 
   // Clear input fields when a transaction succeeds
   useEffect(() => {

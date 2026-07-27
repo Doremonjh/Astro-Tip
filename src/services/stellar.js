@@ -8,7 +8,7 @@ const server = new Horizon.Server(HORIZON_URL);
 const SOROBAN_RPC_URL = "https://soroban-testnet.stellar.org";
 export const rpcServer = new rpc.Server(SOROBAN_RPC_URL);
 
-export const TIPJAR_CONTRACT_ID = "CBLRC7CFV5OV42B5I2NE7EXCBLC3XTXXH3SPZV4E4VI43IETOSC5BRU5";
+export const TIPJAR_CONTRACT_ID = "CCAGHZ6EE2O6TR6DKI6H6M5HE24LBPE435XQD4J6L4CM3HI7ZYO2ZDHS";
 
 /**
  * Checks if the Freighter browser extension is installed.

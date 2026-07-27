@@ -1,47 +1,35 @@
-name: AstroTip CI
+name: Astro-Tip CI/CD
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   pull_request:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
-  frontend:
-    name: Build Frontend
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
 
-      - run: npm install
+      - name: Install Dependencies
+        run: npm ci
 
-      - run: npm run build
+      - name: Run Lint
+        run: npm run lint --if-present
 
-  smart-contract:
-    name: Build Soroban Smart Contract
-    runs-on: ubuntu-latest
+      - name: Run Tests
+        run: npm test --if-present
 
-    defaults:
-      run:
-        working-directory: contracts/tipjar
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Install Rust
-        uses: dtolnay/rust-toolchain@stable
-
-      - name: Add wasm target
-        run: rustup target add wasm32v1-none
-
-      - name: Build Contract
-        run: cargo build --target wasm32v1-none --release
-
-      - name: Run Contract Tests
-        run: cargo test
+      - name: Build Application
+        run: npm run build

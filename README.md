@@ -85,10 +85,10 @@ Handles multiple error types:
 | Item                        | Value                                                              |
 | --------------------------- | ------------------------------------------------------------------ |
 | Network                     | Stellar Testnet                                                    |
-| Contract ID                 | `CBLRC7CFV5OV42B5I2NE7EXCBLC3XTXXH3SPZV4E4VI43IETOSC5BRU5`         |
+| Contract ID                 | `CCAGHZ6EE2O6TR6DKI6H6M5HE24LBPE435XQD4J6L4CM3HI7ZYO2ZDHS`         |
 | Smart Contract              | Soroban Tip Jar                                                    |
 | Status                      | Deployed Successfully                                              |
-| Deployment Transaction Hash | `d3f8efcb83b89c92a6b176df7d359c024876b5083da93795bcb6ad459bf1ff52` |
+| Deployment Transaction Hash | `68e0d1336abf3a6f7e7d3659d70c5b30134c108297a61b6df0d51e905a818636` |
 
 ---
 
@@ -223,7 +223,7 @@ stellar contract deploy \
 ### Contract ID
 
 ```text
-CBLRC7CFV5OV42B5I2NE7EXCBLC3XTXXH3SPZV4E4VI43IETOSC5BRU5
+CCAGHZ6EE2O6TR6DKI6H6M5HE24LBPE435XQD4J6L4CM3HI7ZYO2ZDHS
 ```
 
 ---
